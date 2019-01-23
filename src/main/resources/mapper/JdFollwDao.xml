@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+
+<mapper namespace="com.zkr.wbb.mapper.JdFollwDao">
+
+	<!-- 可根据自己的需求，是否要使用 -->
+    <resultMap type="com.zkr.wbb.entity.JdFollwEntity" id="jdFollwMap">
+        <result property="id" column="id"/>
+        <result property="mobile" column="mobile"/>
+        <result property="followMobile" column="follow_mobile"/>
+        <result property="followMobileAreaCode" column="follow_mobile_area_code"/>
+        <result property="relationCode" column="relation_code"/>
+        <result property="createTime" column="create_time"/>
+        <result property="updateTime" column="update_time"/>
+    </resultMap>
+
+
+</mapper>
